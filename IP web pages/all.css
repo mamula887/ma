@@ -1,0 +1,156 @@
+ <style type="text/css" media="all">
+   .nav {
+     background-color:;
+     overflow: hidden;
+	  width:400px;
+	  
+    }
+    .nav a{
+      float: left;
+      color: white;
+		font-style:bold;
+      padding: 12px 13px;
+      text-align: center;
+      text-decoration: none;
+    }
+    .nav a:hover{
+      background-color: white;
+      color: black;
+    }
+    .nav a.active{
+      background-color: green;
+      color: white;
+    }
+    .logo {
+      float:right;
+      color: purple;
+		width:350px;
+    }
+    .logo a{
+      float: right;
+      padding: 10px 10px;
+      color: purple;
+      text-align: center;
+      font-family: sans-serif;
+    }
+    .logo a:hover{
+      color: red;
+      background-color: gold;
+    }
+    .logo a.active{
+      background-color: black;
+      color: white;
+    }
+      .body{
+      background-image:url(css.jpg);
+      background-repeat: no-repeat;
+      background-image: span 100%;
+          background-size:cover;
+ }
+     
+      #img2{
+      border-radius:50%;
+      }
+      .footer{
+      position:fixed;
+      left:0;
+       bottom:0;
+          width:100%;
+          background-color:#D0D3D4;
+          color:#B3B6B7;
+          text-align:center;
+			 height:40px;
+      }
+		.footer a{
+      color: black;
+		font-style:bold;
+      text-align: center;
+      text-decoration: none;
+		}
+		
+      .footer a:hover{
+      background-color:green;
+          color:black;
+      }
+      #fi{
+      width:20px;
+      height:20px;
+      background-color:purple;
+		border-radius:50%;
+      }
+		.search{
+		margin-left:600px;
+		width:80px;
+		
+		}
+		 .content{
+     background-color: white;
+     overflow: hidden;
+	  width:100%;
+	  height:200px;
+	  
+    }
+    .content a{
+      float: center;
+      color: black;
+      padding: 12px 13px;
+      text-align: center;
+      text-decoration: none;
+    }
+    .content a:hover{
+      background-color: black;
+     
+    }
+    .content a.active{
+      background-color: green;
+      color: white;
+    }
+	
+	   .man{ 
+  text-align:center;
+   padding:10% 25%;
+	font-size:25px;
+	color:white;
+	
+	}
+	.man a{
+	color: white;
+	}
+	.man a.hovr{
+	background-color:black;
+	}
+	.form{
+	padding:100px 100px;
+	margin left 45%;
+	color:white;
+	
+	}
+	#but{
+	background-color:green;
+	border-radius:5px;
+	color:white;
+	height:35px;
+	width:70px;
+	}
+	td{
+	color:black;
+	text-align:center;
+	font:bold;
+	}
+	input[type=text]{
+	border:none;
+	border-bottom:4px solid green;
+	}
+	textarea{
+	border:none;
+	border-bottom:4px solid green;
+	}
+	.option{
+	background-color:green;
+	}
+	#tbl{
+	border-radius:5%;
+	background-color:gray;
+	
+	}
+  </style>

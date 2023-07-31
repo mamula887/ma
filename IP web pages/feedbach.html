@@ -1,0 +1,95 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <title>Mohammed Nurie</title>
+  <link rel="stylesheet" type="text/css" href="all.css">
+ <script>
+function validateForm()
+{
+let a=document.forms["mafrm"]["name"].value;
+let b=document.forms["mafrm"]["email"].value;
+let c=document.forms["mafrm"]["txt"].value;
+if(a=="")
+{
+alert("please fill your name!!!!!");
+return false;
+}
+else if(b=="")
+{
+alert("please write your email!!!!!");
+return false;
+}
+else if(c=="")
+{
+alert("comment can not be blank!!!!!");
+return false;
+}
+}
+
+</script>
+
+  
+  </head>
+  
+  <body class="body" >
+   <div class="logo">
+       <a href="g.html"><img id="img2"src="logo2.png" alt="logo" height="60px" width="60px"/></a>
+  <form> <input  style="margin-top:30px"type="text" placeholder="search here" required/>
+	  <input type="submit" value="search"/>
+	   </form>
+   </div>
+	
+	
+	<b>
+   <div class="nav">
+     <a href="index.html">HOME</a>
+     <a href="main.html">ABOUT</a>
+	  <a class="active" href="feedbach.html">FEEDBACK</a>
+	 
+    <center>  </b>
+		<div class="form">
+		<table id="tbl"border="0" height="50%" width="50%" >
+    <form name="mafrm" onsubmit="return validateform" onsubmit="return valemail">
+	 <tr><td><b>Name</b></td><td><input type="text" name="name" placeholder="write your name"></td>
+	 </tr>
+	  <tr><td><b>Email</b></td><td><input type="text" name="email" placeholder="write your email"></td>
+	 </tr>
+	 <tr><td><b>Gender</b></td>
+	 <td>
+	  <input type="radio" id="a.d" name="h">male
+	  <input type="radio" id="a.d" name="h">female
+	  </td>
+	  </tr>
+	  <tr><td><b>Feedback Type</b></td>
+	  <td><select class="option">
+	  <option value="1">personal</option>
+	  <option value="1">about work</option>
+	  <option value="1">about the website</option>
+	  </select></td></tr>
+	  <tr>
+	  <tr><td><b>Write Your Feedback</b></td><td><textarea rows="4" name="txt"placeholder="your feedback is important to me."></textarea>
+	  </tr>
+	  <td colspan="2">
+	   <input type="submit" value="send" id="but" onclick="validateForm()" onclick="valemail()">
+		  <input type="reset" value="clear" id="but">
+		  
+		  </td>
+		  </tr>
+	 </form>
+	 </table>
+	 </div>
+	 </center>
+  </body>
+ 
+  </body>
+    
+    <div class="footer"> 
+	 <table width="100%"><tr><th><a href="https://t.me/mamula887"><img id="fi"src="tg.png"/>telegram</a></th>
+    <th><a href="https://www.facebook.com/muhammed.nura.3152"><img id="fi"src="fb.png"/>facebook</a></th>
+<th><a href="h"><img id="fi"src="phone.jpg"/>+251918393835</a></th>
+<th>©Mamula887</th>
+   </tr></table>
+	</div> 
+</head>
+</html>
